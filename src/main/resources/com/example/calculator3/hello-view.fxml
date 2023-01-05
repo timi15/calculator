@@ -12,7 +12,10 @@
    <children>
       <HBox alignment="CENTER" prefHeight="214.0" prefWidth="238.0">
          <children>
-            <TextField fx:id="txt_result" alignment="CENTER_RIGHT" prefHeight="54.0" prefWidth="181.0" style="-fx-border-color: black;" />
+            <TextField fx:id="txt_result" alignment="CENTER_RIGHT" prefHeight="54.0" prefWidth="181.0" style="-fx-border-color: black;">
+               <font>
+                  <Font size="16.0" />
+               </font></TextField>
          </children></HBox>
       <HBox alignment="CENTER" prefHeight="43.0" prefWidth="222.0">
          <children>
